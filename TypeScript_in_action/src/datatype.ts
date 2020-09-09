@@ -10,7 +10,7 @@ let arr2: Array<number | string> = [1, 2, 3, '5']
 // 元组
 let tupe: [number, string] = [0, '1']
 tupe.push(2) // 越界
-console.log(tupe)
+// console.log(tupe)
 
 // 函数
 let add = (x: number, y: number): number => x + y // 返回可以省略，类型推断
@@ -25,7 +25,7 @@ obj.x = 2
 // symbol 具有唯一的值
 let s1: symbol = Symbol()
 let s2 = Symbol()
-console.log(s1 === s2)
+// console.log(s1 === s2)
 
 // undefined, null
 let un: undefined = undefined
