@@ -12,9 +12,9 @@ interface Result {
 
 function render(result: Result) {
   result.data.forEach(value => {
-    console.log(value.id, value.name)
+    // console.log(value.id, value.name)
     if (value.age) {
-      console.log(value.age)
+      // console.log(value.age)
     }
   })
 }
