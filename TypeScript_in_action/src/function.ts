@@ -26,7 +26,7 @@ function add7(x: number, ...rest: number[]) {
   return x + rest.reduce((pre, cur) => pre + cur)
 }
 
-// 函数重返
+// 函数重载
 function add8(...rest: number[]): number;
 function add8(...rest: string[]): string;
 function add8(...rest: any[]): any {
